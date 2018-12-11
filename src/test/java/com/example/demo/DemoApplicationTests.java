@@ -12,12 +12,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DemoApplicationTests {
 
-	@Autowired
-	Person person;
+
 	@Test
 	public void getNamegetDescription() {
 
-		System.out.println(person.toString());
+		System.out.println("hello test");
 
 	}
 
